@@ -25,10 +25,10 @@ function App() {
           return (
             <li>
               <ul style={{ textAlign: "left" }}>
-                <li>{key.login ? key.login : "NA"}</li>
-                <li>{key.avatar_url ? key.avatar_url : "NA"}</li>
-                <li>{key.url.html_url ? key.url.html_url : "NA"}</li>
-                <li>{key.type ? key.type : "NA"}</li>
+                <li>Login: {key.login ? key.login : "NA"}</li>
+                <li>Avatar_URL: {key.avatar_url ? key.avatar_url : "NA"}</li>
+                <li>HTML_URL: {key.url.html_url ? key.url.html_url : "NA"}</li>
+                <li>type: {key.type ? key.type : "NA"}</li>
                 <hr />
               </ul>
             </li>
