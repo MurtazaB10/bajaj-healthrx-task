@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/bajaj-healthrx-task/static/css/main.073c9b0a.css",
-    "main.js": "/bajaj-healthrx-task/static/js/main.114c0f59.js",
+    "main.js": "/bajaj-healthrx-task/static/js/main.855ec2c0.js",
     "static/js/787.3ac61d43.chunk.js": "/bajaj-healthrx-task/static/js/787.3ac61d43.chunk.js",
     "index.html": "/bajaj-healthrx-task/index.html",
     "main.073c9b0a.css.map": "/bajaj-healthrx-task/static/css/main.073c9b0a.css.map",
-    "main.114c0f59.js.map": "/bajaj-healthrx-task/static/js/main.114c0f59.js.map",
+    "main.855ec2c0.js.map": "/bajaj-healthrx-task/static/js/main.855ec2c0.js.map",
     "787.3ac61d43.chunk.js.map": "/bajaj-healthrx-task/static/js/787.3ac61d43.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.114c0f59.js"
+    "static/js/main.855ec2c0.js"
   ]
 }
