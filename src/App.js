@@ -20,19 +20,21 @@ function App() {
   }, []);
   return (
     <div className="App">
-      <ul>
+      <ol>
         {data.map((key, ind) => {
           return (
-            <>
-              <li>{key.login}</li>
-              <li>{key.avatar_url}</li>
-              <li>{key.url.html_url}</li>
-              <li>{key.type}</li>
-              <hr />
-            </>
+            <li>
+              <ul style={{ textAlign: "left" }}>
+                <li>{key.login ? key.login : "NA"}</li>
+                <li>{key.avatar_url ? key.avatar_url : "NA"}</li>
+                <li>{key.url.html_url ? key.url.html_url : "NA"}</li>
+                <li>{key.type ? key.type : "NA"}</li>
+                <hr />
+              </ul>
+            </li>
           );
         })}
-      </ul>
+      </ol>
     </div>
   );
 }
